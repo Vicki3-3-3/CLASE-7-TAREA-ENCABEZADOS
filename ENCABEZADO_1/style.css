@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(43, 41, 41);
+    color: white;
+}
+
+
+button {
+    height: 20px;
+    width: 60px;
+    background-color: rgb(104, 184, 250);
+    color: white;
+    border-radius: 10px;
+}
+
+/*Problema: al poner section .caja1 se resetea el flex direction row*/
